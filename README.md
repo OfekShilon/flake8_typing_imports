@@ -22,7 +22,7 @@ This won't be uploaded to PyPI until it gathers some more mileage. In the mean t
 1. Clone the repo,
 2. From the repo directory:
 ```
-$ pip install -e .
+$ pip install .
 ```
 3. Finally, run flake8 in your preferred way, the simplest being:
 ```
