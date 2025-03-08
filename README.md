@@ -1,6 +1,6 @@
 # flake8_typing_imports
 
-When an import is made only to satisfy typing static analysis tools like `mypy`, `pyright` or `pyre`, it risks incurring redundant runtime overhead. The preferrable way to code such an import is:
+When an import is added only to satisfy static-analysis tools like `mypy`, `pyright` or `pyre`, it risks incurring redundant runtime overhead. The preferrable way to code such an import is:
 
 ```python
 from __future__ import annotations
