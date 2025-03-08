@@ -24,7 +24,8 @@ This won't be uploaded to PyPI until it gathers some more mileage. In the mean t
 ```
 $ pip install -e .
 ```
-3. To use it in a flake8 scan of a file or folder:
+3. Finally, run flake8 in your preferred way, the simplest being:
 ```
-$ flake8 --select=TYP <path> 
+$ flake8 <path> 
 ```
+
