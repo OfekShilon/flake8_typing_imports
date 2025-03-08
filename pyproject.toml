@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "flake8-typing-imports"
+version = "0.1.0"
+description = "Flake8 extension to suggest moving type-only imports to TYPE_CHECKING blocks"
+authors = [
+    {name = "Ofek Shilon", email = "ofekshilon@gmail.com"},
+]
+requires-python = ">=3.6"
+dependencies = [
+    "flake8>=3.8.0",
+]
+classifiers = [
+    "Framework :: Flake8",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+]
+
+[project.entry-points."flake8.extension"]
+TYP = "flake8_typing_imports:TypeCheckingImportChecker"
